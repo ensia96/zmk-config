@@ -47,13 +47,13 @@
 
 		raise_layer {
 // ---------------------------------------------------------------------------------------------------------
-// |     |     |     |      |      |      |                  | BRI_UP | BRI_DOWN | PLAY_PUASE | MUTE | VOL_DN | VOL_UP |
-// |     |     |     |      |      |      |                  |        |          |            |      |        |        |
-// |     |     |     |      |      |      |                  |        |          |            |      |        |        |
-// |     |     |     |      |      |      |       |  |       |        |          |            |      |        |        |
-//                   |      |      |      |       |  |       |        |          |            |
+// |     |     |     |      |      |      |                  | BRI_DN | BRI_UP | PLAY_PUASE | MUTE | VOL_DN | VOL_UP |
+// |     |     |     |      |      |      |                  |        |        |            |      |        |        |
+// |     |     |     |      |      |      |                  |        |        |            |      |        |        |
+// |     |     |     |      |      |      |       |  |       |        |        |            |      |        |        |
+//                   |      |      |      |       |  |       |        |        |            |
 			bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                       &kp C_BRI_UP &kp C_BRI_DN &kp C_PP &kp C_MUTE &kp C_VOL_DN &kp K_VOL_UP
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp C_BRI_DN &kp C_BRI_UP &kp C_PP &kp C_MUTE &kp C_VOL_DN &kp K_VOL_UP
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans       &trans       &trans   &trans     &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans       &trans       &trans   &trans     &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans       &trans       &trans   &trans     &trans       &trans
