@@ -38,7 +38,7 @@
 			bindings = <
 // ╭────────────┬────────────┬────────────┬────────────┬────────────┬───────────╮                       ╭────────────┬────────────┬───────────┬───────────┬────────────┬────────────╮
 // │     `      │            │            │            │            │           │                       │            │            │           │           │            │            │
-       &trans       &trans       &trans       &trans       &trans       &trans                              &trans       &trans       &trans      &trans       &trans      &trans
+     &kp GRAVE      &trans       &trans       &trans       &trans       &trans                              &trans       &trans       &trans      &trans       &trans      &trans
 // ├────────────┼────────────┼────────────┼────────────┼────────────┼───────────┤                       ├────────────┼────────────┼───────────┼───────────┼────────────┼────────────┤
 // │            │            │            │            │            │           │                       │     [      │      ]     │     \     │           │            │            │
        &trans       &trans       &trans       &trans       &trans       &trans                             &kp LBKT     &kp RBKT    &kp BSLH      &trans       &trans      &trans
