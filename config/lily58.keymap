@@ -26,7 +26,7 @@
        &trans       &kp A        &kp S        &kp D        &kp F         &kp G                               &kp H        &kp J         &kp K        &kp L      &kp SEMI      &trans
 // ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼───────────┬───────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
 // │            │      Z     │      X     │      C     │      V     │      B     │                       │     N      │     M      │      ,     │      .     │     /      │            │
-       &trans       &kp Z        &kp X        &kp C        &kp V         &kp B      &trans       &trans      &kp N        &kp M       &kp COMMA     &kp DOT     &kp FSLH      &trans
+       &trans       &kp Z        &kp X        &kp C        &kp V         &kp B       &trans      &trans      &kp N        &kp M       &kp COMMA     &kp DOT     &kp FSLH      &trans
 // ╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┼───────────┼───────────┼────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
 //                                        │            │     LWR    │    LGUI    │   SPACE   │   ENTER   │     RAI    │    LALT    │            │
                                               &trans        &mo 1      &kp LGUI    &kp SPACE    &kp RET       &mo 2      &kp LALT      &trans
@@ -47,10 +47,10 @@
        &trans       &trans       &trans       &trans       &trans       &trans                               &trans       &trans       &trans       &trans       &trans       &trans
 // ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼───────────┬───────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
 // │            │            │            │            │            │            │                       │            │            │            │            │            │            │
-       &trans       &trans       &trans       &trans       &trans       &trans      &trans       &trans      &trans       &trans       &trans       &trans       &trans       &trans
+       &trans       &trans       &trans       &trans       &trans       &trans       &trans      &trans      &trans       &trans       &trans       &trans       &trans       &trans
 // ╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┼───────────┼───────────┼────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
-//                                        │            │            │            │   LSHIFT  │   LCTRL   │    ESC     │            │            │
-                                              &trans       &trans       &trans     &kp LSHFT   &kp LCTRL    &kp ESC       &trans       &trans
+//                                        │            │            │            │   LCTRL   │   LSHIFT  │    ESC     │            │            │
+                                              &trans       &trans       &trans     &kp LCTRL   &kp LSHFT    &kp ESC       &trans       &trans
 //                                        ╰────────────┴────────────┴────────────┴───────────┴───────────┴────────────┴────────────┴────────────╯
 			>;
 		};
@@ -68,10 +68,10 @@
        &trans      &kp TAB      &kp GRAVE    &kp BSLH     &kp LBKT     &kp RBKT                             &kp LEFT     &kp DOWN      &kp UP     &kp RIGHT     &kp SQT       &trans
 // ├────────────┼────────────┼────────────┼────────────┼────────────┼────────────┼───────────┬───────────┼────────────┼────────────┼────────────┼────────────┼────────────┼────────────┤
 // │            │            │    CAPS    │            │     -      │      =     │                       │            │            │            │            │            │            │
-       &trans     &bt BT_CLR    &kp CAPS       &trans     &kp MINUS    &kp EQUAL      &trans      &trans   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans
+       &trans     &bt BT_CLR    &kp CAPS       &trans     &kp MINUS    &kp EQUAL     &trans      &trans   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans
 // ╰────────────┴────────────┴────────────┼────────────┼────────────┼────────────┼───────────┼───────────┼────────────┼────────────┼────────────┼────────────┴────────────┴────────────╯
-//                                        │            │    BSPC    │            │   LSHIFT  │   LCTRL   │            │            │            │
-                                              &trans      &kp BSPC      &trans     &kp LSHFT   &kp LCTRL     &trans       &trans       &trans
+//                                        │            │    BSPC    │            │   LCTRL   │   LSHIFT  │            │            │            │
+                                              &trans      &kp BSPC      &trans     &kp LCTRL   &kp LSHFT     &trans       &trans       &trans
 //                                        ╰────────────┴────────────┴────────────┴───────────┴───────────┴────────────┴────────────┴────────────╯
 			>;
 		};
