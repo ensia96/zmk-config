@@ -28,7 +28,7 @@
                                                &trans      &kp LALT     &kp LGUI    &kp SPACE      &kp RET      &mo 1       &kp LALT      &trans
 //                                         ╰────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────╯
 			>;
-			display_name = "DEFAULT";
+			display-name = "DEFAULT";
 		};
 
 		lower_layer {
@@ -47,7 +47,7 @@
                                                &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
 //                                         ╰────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────┴────────────╯
 			>;
-			display_name = "LOWER";
+			display-name = "LOWER";
 		};
 	};
 };
